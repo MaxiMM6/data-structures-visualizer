@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+
+# Тесты
+.pytest_cache/
+.coverage
+
+# Данные
+data/logs/
+data/config.json

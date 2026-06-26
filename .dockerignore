@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+
+.pytest_cache/
+.coverage
+tests/
+
+data/logs/
+data/config.json
+
+.gitignore
+*.md
+*.docx
+*.pdf
