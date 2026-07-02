@@ -103,9 +103,7 @@ docker-compose up
 
 ## Структура проекта
 
-```
 ![Структура проекта](img/project_structure.png)
-```
 
 ---
 
