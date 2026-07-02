@@ -104,57 +104,7 @@ docker-compose up
 ## Структура проекта
 
 ```
-data-structures-visualizer/
-├── src/
-│   ├── core/               # Алгоритмическое ядро (без GUI)
-│   │   ├── stack.py        # Класс Stack
-│   │   ├── queue.py        # Класс Queue
-│   │   └── bst.py          # Классы BST и BSTNode
-│   ├── visualization/      # Рисователи на Tkinter Canvas
-│   │   ├── stack_drawer.py
-│   │   ├── queue_drawer.py
-│   │   └── bst_drawer.py
-│   ├── controllers/        # Связь ядра с GUI, механизм Undo
-│   │   ├── base_controller.py
-│   │   ├── stack_controller.py
-│   │   ├── queue_controller.py
-│   │   └── bst_controller.py
-│   ├── gui/                # Главное окно и компоненты интерфейса
-│   │   ├── app.py
-│   │   ├── controls.py
-│   │   ├── operation_log.py
-│   │   └── status_bar.py
-│   ├── persistence/        # Логирование и конфигурация
-│   │   ├── logger.py
-│   │   └── config.py
-│   └── main.py
-├── tests/
-│   ├── unit/               # Юнит-тесты ядра
-│   │   ├── test_stack.py
-│   │   ├── test_queue.py
-│   │   └── test_bst.py
-│   └── integration/        # Интеграционные тесты
-│       └── test_gui_flow.py
-├── data/
-│   ├── logs/               # operations.log.json (создаётся автоматически)
-├── report/                 # Отчёт по практике
-│   ├── Отчет_Практика_Жиляков_БИС-24-3.docx
-│   └── Отчет_Практика_Жиляков_БИС-24-3.pdf
-│   
-├── scripts/
-│   ├── run.sh
-│   ├── run.bat
-│   └── run_tests.py
-├── img/                    # Скриншоты для README
-│   ├── stack.png
-│   ├── queue.png
-│   └── bst.png
-├── Dockerfile
-├── docker-compose.yml
-├── pytest.ini
-├── requirements.txt
-├── .gitignore
-└── README.md
+(img/project_structure.png)
 ```
 
 ---
@@ -245,7 +195,7 @@ python scripts/run_tests.py
 ]
 ```
 
-Файл создаются автоматически при первом запуске.
+Файл создается автоматически при первом запуске.
 
 ---
 
