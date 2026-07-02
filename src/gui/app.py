@@ -10,7 +10,7 @@ from src.controllers.bst_controller import BSTController
 
 
 class App:
-    TITLE = "Data Structures Visualizer"
+    TITLE = "Data Structures Visualizer (Жиляков М.Н. БИС-24-3)"
     WIDTH = 1100
     HEIGHT = 720
 

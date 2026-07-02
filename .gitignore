@@ -10,4 +10,3 @@ __pycache__/
 
 # Данные
 data/logs/
-data/config.json

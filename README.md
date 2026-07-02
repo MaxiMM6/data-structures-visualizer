@@ -137,7 +137,6 @@ data-structures-visualizer/
 │       └── test_gui_flow.py
 ├── data/
 │   ├── logs/               # operations.log.json (создаётся автоматически)
-│   └── config.json         # Настройки приложения
 ├── report/                 # Отчёт по практике
 │   ├── Отчет_Практика_Жиляков_БИС-24-3.docx
 │   └── Отчет_Практика_Жиляков_БИС-24-3.pdf
@@ -246,16 +245,7 @@ python scripts/run_tests.py
 ]
 ```
 
-### Конфигурация — `data/config.json`
-
-```json
-{
-  "animation_speed": 500,
-  "color_scheme": "dark"
-}
-```
-
-Файлы создаются автоматически при первом запуске.
+Файл создаются автоматически при первом запуске.
 
 ---
 
